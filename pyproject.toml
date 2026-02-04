@@ -1,0 +1,17 @@
+[project]
+name = "data-engineering-zoomcamp" # Bạn có thể đổi tên theo ý thích
+version = "0.1.0"
+description = "Dự án thực hành Data Engineering với Postgres"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "pandas>=3.0.0",
+    "psycopg2-binary>=2.9.11",
+    "sqlalchemy>=2.0.46",
+    "tqdm>=4.67.3",
+] 
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "pgcli>=4.4.0",
+]
